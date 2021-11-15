@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#8fe3e9;
+  /*background-color:#0063B2FF;
+  background-color: #4c90af;*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button{
+  margin-right: 10px;
+}
+
+.display{
+  margin: 10px;
+  place-content: center;
+  width: 500px;
+  justify-content: center;
+  margin: auto;
+  /*font-family: 'Raleway', sans-serif;*/
+  color: white;
+}
+
+.addtodo{
+  /*display: flex;
+  /*flex-direction: column;*/
+  background-color: white;
+}
+
+.addtodo input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+.addtodo button{
+  background-color: gray;
+  color: white;
+  padding: 14px 0px;
+  margin: 8px 20px;
+  border: none;
+  width: 20%;
+  border-radius: 4px;
+}
+
+
+.edit,.delete{
+  background-color: #FE828C;
+  color: white;
+  padding: auto;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.todocolor{
+  color:#141001;
+  background-color: white;
+}
